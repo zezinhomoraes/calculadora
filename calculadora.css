@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: rgb(243, 243, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    height: 400px;
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+}
+.tela{
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    width: 280px;
+    height: 50px;
+    font-size: 30px;
+    text-align: end;
+}
+.buttons{
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    height: 270px;
+    width: 280px;
+    border-radius: 5px;
+}
+.buttons_N{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 270px;
+    width: 210px;
+    padding: 5px;
+}
+.button{
+    width: 60px;
+    height: 40px;
+    border-radius: 3px;
+}
+.buttons_op{
+    display: grid;
+    padding: 5px 5px 5px 5px;
+    height: 270px;
+    width: 70px;    
+}
+.button_op{
+    width: 60px;
+    height: 40px;
+    border-radius: 3px;
+}
